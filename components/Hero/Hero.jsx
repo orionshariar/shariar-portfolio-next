@@ -76,7 +76,7 @@ const Hero = () => {
                           <div className="d-flex rounded-circle p-2 border border-primary border-opacity-75">
                             <img
                               className="img-fluid d-flex rounded-circle border border-primary"
-                              src="/images/shariar_image_sm_2.jpeg"
+                              src="/images/shariar_picture.png"
                               alt="Shariar Shishir"
                             />
                           </div>
