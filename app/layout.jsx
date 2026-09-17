@@ -44,7 +44,7 @@ const globalSchemas = [
     '@type': 'Person',
     name: 'Shariar Shishir',
     url: 'https://shariarshishir.com',
-    image: 'https://shariarshishir.com/images/shariar_picture.png',
+    image: 'https://shariarshishir.com/images/shariar_profile_picture.png',
     jobTitle: 'Full Stack Developer & Web Designer',
     description: 'Full Stack Developer & Web Designer with 16+ years of experience.',
     address: { '@type': 'PostalAddress', addressLocality: 'Dhaka', addressCountry: 'BD' },

@@ -82,7 +82,7 @@ const Contact = () => {
                   </span>
                   <img
                     className="img-fluid d-flex rounded-circle mb-n1"
-                    src="/images/shariar_picture.png"
+                    src="/images/shariar_profile_picture.png"
                     height="50"
                     width="50"
                     alt="Shariar"
