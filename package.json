@@ -9,9 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "mysql2": "^3.24.4",
     "next": "16.3.5",
+    "nodemailer": "^10.0.10",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-awesome-reveal": "^4.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.8",
+    "react-intersection-observer": "^11.0.1"
   },
   "devDependencies": {
     "babel-plugin-react-compiler": "1.0.0",
