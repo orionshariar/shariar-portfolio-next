@@ -3,8 +3,16 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 const experiences = [
   {
+    title: 'Software Engineer',
+    company: 'Interplast Group LTD (Remote)',
+    period: 'May 2026 - Present',
+    tasks: [
+      'Developing and maintaining scalable CMS platforms serving customers worldwide.'
+    ],
+  },  
+  {
     title: 'Full Stack Developer',
-    company: 'KANEV Web Development Limited (Remote)',
+    company: 'KANEV Web Development Limited (Remote - Contract)',
     period: '2025 - Present',
     tasks: [
       'Designing and maintaining scalable CMS-based products and SaaS systems used by global customers.'
