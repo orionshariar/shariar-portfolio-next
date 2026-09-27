@@ -4249,6 +4249,31 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
   --bs-btn-disabled-border-color: var(--bs-themecolor);
 }
 
+.wp-block-button.btn.btn-outline-primary {
+  padding: 0px;
+}
+.btn-outline-primary a.wp-element-button {
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  border-radius: var(--bs-btn-border-radius);
+  display: inline-block;
+  --bs-btn-color: var(--bs-themecolor);
+  --bs-btn-border-color: var(--bs-themecolor);
+  --bs-btn-hover-bg: var(--bs-themecolor);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-border-color: var(--bs-themecolor);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bs-themehovercolor);
+  --bs-btn-active-border-color: var(--bs-themehovercolor);
+  --bs-btn-disabled-color: var(--bs-themecolor);
+  --bs-btn-disabled-border-color: var(--bs-themecolor);
+}
+.btn-outline-primary:hover a.wp-element-button {
+  color: var(--bs-white);
+}
+.is-content-justification-center {
+  text-align: center;
+}
+
 .link-primary:hover, .link-primary:focus {
   color: rgba(var(--bs-themehovercolor-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: rgba(var(--bs-themehovercolor-rgb), var(--bs-link-underline-opacity, 1)) !important;
