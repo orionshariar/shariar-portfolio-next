@@ -25,7 +25,7 @@ function formatPost(post) {
     featuredImage: post.featured_image_url || null,
     readingTime: post.reading_time || 1,
     categories: post._embedded?.['wp:term']?.[0]?.map((cat) => ({
-      id: cat.id, name: cat.name, slug: cat.slug,
+      id: cat.id, name: decodeEntities(cat.name), slug: cat.slug,
     })) || [],
   };
 }
